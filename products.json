@@ -1,0 +1,82 @@
+[
+  {
+    "id": "kit-pod-compact",
+    "name": "Kit pod compact rechargeable",
+    "category": "Kits rechargeables",
+    "price": 29.9,
+    "description": "Petit appareil rechargeable à cartouche remplissable, conçu pour un usage quotidien. Batterie intégrée et port de charge USB-C.",
+    "image": "assets/products/kit-pod-compact.webp",
+    "nicotine": false,
+    "alt": "Petit kit rechargeable à réservoir remplissable, tenu dans une main d’adulte, avec un nuage de vapeur en arrière-plan."
+  },
+  {
+    "id": "kit-pod-autonomie",
+    "name": "Kit pod grande autonomie",
+    "category": "Kits rechargeables",
+    "price": 39.9,
+    "description": "Kit rechargeable doté d’une batterie de plus grande capacité, pour une utilisation prolongée. Compatible avec des cartouches rechargeables.",
+    "image": "assets/products/kit-pod-autonomie.webp",
+    "nicotine": false,
+    "alt": "Réservoir remplissable d’un kit rechargeable en métal argenté, photographié en gros plan sur fond flou."
+  },
+  {
+    "id": "kit-clearomiseur",
+    "name": "Kit clearomiseur rechargeable",
+    "category": "Kits rechargeables",
+    "price": 49.9,
+    "description": "Cigarette électronique rechargeable avec réservoir remplissable. Puissance réglable et chargement USB-C.",
+    "image": "assets/products/kit-clearomiseur.webp",
+    "nicotine": false,
+    "alt": "Kit rechargeable à clearomiseur métallique, posé sur un morceau de bois, réservoir rempli d’un liquide jaune."
+  },
+  {
+    "id": "eliquide-fruits-rouges",
+    "name": "E-liquide fruits rouges 10 ml",
+    "category": "E-liquides",
+    "price": 5.9,
+    "description": "Flacon de 10 ml au goût fruits rouges, version sans nicotine. Destiné exclusivement aux appareils rechargeables.",
+    "image": "assets/products/eliquide-fruits-rouges.webp",
+    "nicotine": false,
+    "alt": "Flacon compte-gouttes en verre ambré, une goutte de liquide rouge tombant dans l’ouverture."
+  },
+  {
+    "id": "eliquide-tabac-blond",
+    "name": "E-liquide tabac blond 10 ml",
+    "category": "E-liquides",
+    "price": 6.9,
+    "description": "Flacon de 10 ml au goût tabac blond, contenant de la nicotine. Réservé aux personnes déjà dépendantes à la nicotine.",
+    "image": "assets/products/eliquide-tabac-blond.webp",
+    "nicotine": true,
+    "alt": "Flacon compte-gouttes en verre ambré, sans étiquette, posé sur un tissu beige."
+  },
+  {
+    "id": "eliquide-menthe",
+    "name": "E-liquide menthe fraîche 10 ml",
+    "category": "E-liquides",
+    "price": 5.9,
+    "description": "Flacon de 10 ml au goût menthe fraîche, contenant de la nicotine. Pour appareils rechargeables uniquement.",
+    "image": "assets/products/eliquide-menthe.webp",
+    "nicotine": true,
+    "alt": "Flacon compte-gouttes en verre vert, ouvert, avec une pipette au-dessus de l’ouverture."
+  },
+  {
+    "id": "resistances-rechange",
+    "name": "Pack de résistances de rechange",
+    "category": "Accessoires",
+    "price": 12.9,
+    "description": "Jeu de résistances de rechange pour kits rechargeables. À remplacer selon les indications fournies avec l’appareil.",
+    "image": "assets/products/resistances-rechange.webp",
+    "nicotine": false,
+    "alt": "Gros plan d’une résistance de vapotage installée sur un plateau métallique, posé sur du bois."
+  },
+  {
+    "id": "chargeur-usbc",
+    "name": "Chargeur USB-C et câble",
+    "category": "Accessoires",
+    "price": 8.9,
+    "description": "Bloc de charge et câble USB-C pour les batteries d’appareils de vapotage rechargeables.",
+    "image": "assets/products/chargeur-usbc.webp",
+    "nicotine": false,
+    "alt": "Bloc de charge blanc à prise européenne et câble USB-C tressé, posés sur un plan de travail en marbre."
+  }
+]

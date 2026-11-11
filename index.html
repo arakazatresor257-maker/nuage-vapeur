@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boutique — Nuage vapeur</title>
+  <meta name="description" content="Boutique d’exemple Nuage vapeur : kits rechargeables, e-liquides et accessoires. Vente interdite aux mineurs.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,650&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <div id="age-gate" class="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-gate-title">
+    <div id="age-gate-dialog" class="age-card">
+      <h1 id="age-gate-title">Accès réservé aux majeurs</h1>
+      <p>La vente de produits du vapotage est interdite aux mineurs de moins de 18 ans.</p>
+      <p>Avez-vous 18 ans ou plus&#8239;?</p>
+      <div class="age-actions">
+        <button type="button" class="button button-primary" id="age-accept">Oui, j’ai 18 ans ou plus</button>
+        <button type="button" class="button button-secondary" id="age-refuse">Non, j’ai moins de 18 ans</button>
+      </div>
+    </div>
+    <div id="age-gate-exit" class="age-card age-gate-exit" hidden tabindex="-1">
+      <h2>Accès refusé</h2>
+      <p>Vous devez avoir 18 ans ou plus pour accéder à ce site.</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">
+        <img class="logo-mark" src="assets/logo.svg" width="36" height="36" alt="">
+        <span class="logo-text">
+          <span class="logo-name">Nuage vapeur</span>
+          <span class="logo-tag">Boutique d’exemple</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="index.html">Boutique</a>
+        <a class="cart-link" href="panier.html">Panier <span class="cart-count" data-cart-count hidden>0</span></a>
+        <a href="commande.html">Commande</a>
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="cgv.html">CGV</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="health-banner">
+    <div class="container">
+      <strong>Avertissement&nbsp;:</strong>
+      La nicotine contenue dans ce produit crée une très forte dépendance. Son utilisation par les non-fumeurs est déconseillée.
+      Vente interdite aux mineurs.
+    </div>
+  </div>
+
+  <main id="contenu">
+    <div class="container">
+      <header class="page-intro">
+        <h1>Boutique</h1>
+        <p class="lede">Matériels rechargeables, e-liquides et accessoires. Les cigarettes électroniques jetables non rechargeables (puffs) ne sont pas commercialisées.</p>
+        <p class="legal-note">Tous les articles ci-dessous sont des <strong>produits d’exemple</strong>, destinés à illustrer le site. Ils ne correspondent pas à un catalogue réel et ne font référence à aucune marque.</p>
+      </header>
+
+      <div class="catalog-toolbar">
+        <div class="filters" id="category-filters" role="group" aria-label="Filtrer par catégorie"></div>
+        <p id="catalog-status">Chargement du catalogue…</p>
+      </div>
+
+      <div id="product-grid" class="product-grid"></div>
+      <div id="catalog-empty" class="empty-state" hidden>
+        <p>Aucun produit dans cette catégorie.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-warning">La nicotine contenue dans ce produit crée une très forte dépendance. Son utilisation par les non-fumeurs est déconseillée. Vente interdite aux mineurs.</p>
+      <p class="footer-meta">
+        <span>Nuage vapeur — site d’exemple, sans paiement en ligne</span>
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="cgv.html">CGV</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/age-gate.js"></script>
+  <script src="js/boutique.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Nuage vapeur">
+  <rect width="48" height="48" rx="14" fill="#1f4f43"/>
+  <path fill="#f6f1e8" d="M14.5 30.5c-3.3 0-6-2.4-6-5.4 0-2.4 1.6-4.4 3.9-5.2.4-3.6 3.5-6.4 7.3-6.4 2.2 0 4.2 1 5.5 2.5 1.1-1.6 3-2.6 5.1-2.6 3.5 0 6.3 2.7 6.5 6.1 2.5.6 4.4 2.8 4.4 5.4 0 3.1-2.7 5.6-6.1 5.6H14.5z"/>
+  <path fill="none" stroke="#c46b3a" stroke-width="1.6" stroke-linecap="round" d="M20 33.5c2.2 1.6 5.8 1.6 8 0"/>
+</svg>

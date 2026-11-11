@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conditions générales de vente — Nuage vapeur</title>
+  <meta name="description" content="Conditions générales de vente de Nuage vapeur : commande, livraison, paiement, rétractation et garanties.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,650&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <div id="age-gate" class="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-gate-title">
+    <div id="age-gate-dialog" class="age-card">
+      <h1 id="age-gate-title">Accès réservé aux majeurs</h1>
+      <p>La vente de produits du vapotage est interdite aux mineurs de moins de 18 ans.</p>
+      <p>Avez-vous 18 ans ou plus&#8239;?</p>
+      <div class="age-actions">
+        <button type="button" class="button button-primary" id="age-accept">Oui, j’ai 18 ans ou plus</button>
+        <button type="button" class="button button-secondary" id="age-refuse">Non, j’ai moins de 18 ans</button>
+      </div>
+    </div>
+    <div id="age-gate-exit" class="age-card age-gate-exit" hidden tabindex="-1">
+      <h2>Accès refusé</h2>
+      <p>Vous devez avoir 18 ans ou plus pour accéder à ce site.</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">
+        <img class="logo-mark" src="assets/logo.svg" width="36" height="36" alt="">
+        <span class="logo-text">
+          <span class="logo-name">Nuage vapeur</span>
+          <span class="logo-tag">Boutique d’exemple</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="index.html">Boutique</a>
+        <a class="cart-link" href="panier.html">Panier <span class="cart-count" data-cart-count hidden>0</span></a>
+        <a href="commande.html">Commande</a>
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="cgv.html">CGV</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="health-banner">
+    <div class="container">
+      <strong>Avertissement&nbsp;:</strong>
+      La nicotine contenue dans ce produit crée une très forte dépendance. Son utilisation par les non-fumeurs est déconseillée.
+      Vente interdite aux mineurs.
+    </div>
+  </div>
+
+  <main id="contenu">
+    <div class="container">
+      <header class="page-intro">
+        <h1>Conditions générales de vente</h1>
+        <p class="lede">Les présentes conditions générales de vente (CGV) s’appliquent aux ventes proposées par Beltrand Arakaza sous l’enseigne Nuage vapeur. Elles sont en vigueur à compter du 11 novembre 2026.</p>
+      </header>
+
+      <div class="legal-stack">
+        <section class="legal-card" id="objet">
+          <h2>1. Objet</h2>
+          <p>Les présentes CGV définissent les droits et obligations des parties dans le cadre de la vente de produits de vapotage (kits et appareils rechargeables, e-liquides et accessoires) proposée par le vendeur au moyen du site Nuage vapeur et des demandes de commande transmises par courriel.</p>
+          <p>Toute demande de commande implique l’acceptation des présentes CGV. Le client déclare en avoir pris connaissance avant d’envoyer sa demande.</p>
+        </section>
+
+        <section class="legal-card" id="vendeur">
+          <h2>2. Identité du vendeur</h2>
+          <p>Les produits sont proposés par Beltrand Arakaza, entrepreneur individuel (micro-entreprise), SIRET 981&nbsp;278&nbsp;047&nbsp;00015.</p>
+          <p>Adresse&nbsp;: Cité Ronsard, bâtiment B, logement 007, 34 rue Ronsard, 64000 Pau.</p>
+          <p>Courriel&nbsp;: <a href="mailto:arakazatresor257@gmail.com">arakazatresor257@gmail.com</a>.</p>
+        </section>
+
+        <section class="legal-card warning-box" id="majeurs">
+          <h2>3. Produits réservés aux majeurs</h2>
+          <p>Les produits proposés sont réservés aux personnes majeures de 18 ans et plus. La vente aux mineurs est interdite.</p>
+          <p>Le vendeur se réserve le droit de refuser la vente et d’exiger la présentation d’une pièce d’identité lors de la livraison, que celle-ci soit effectuée en voiture ou par colis postal.</p>
+        </section>
+
+        <section class="legal-card" id="prix">
+          <h2>4. Prix</h2>
+          <p>Les prix sont indiqués en euros, toutes taxes comprises (TTC). Conformément au régime de la micro-entreprise, la TVA n’est pas applicable, article 293&nbsp;B du CGI.</p>
+          <p>Les prix des produits sont ceux affichés sur le site au moment de l’envoi de la demande de commande. S’y ajoutent les frais de livraison, facturés par commande selon le mode choisi&nbsp;:</p>
+          <ul>
+            <li>livraison en voiture dans Bayonne et alentours&nbsp;: 20&nbsp;€ TTC par commande&nbsp;;</li>
+            <li>envoi par colis postal&nbsp;: 35&nbsp;€ TTC par commande.</li>
+          </ul>
+        </section>
+
+        <section class="legal-card" id="commande">
+          <h2>5. Commande</h2>
+          <p>Aucun paiement n’est effectué en ligne. Le client compose son panier sur le site, puis envoie une demande de commande au moyen du formulaire prévu à cet effet. Cette demande ouvre le logiciel de messagerie du client et transmet le récapitulatif à l’adresse <a href="mailto:arakazatresor257@gmail.com">arakazatresor257@gmail.com</a>.</p>
+          <p>La demande précise notamment l’identité et les coordonnées du client, les articles souhaités, le mode de livraison choisi et le total TTC correspondant (articles et frais de livraison).</p>
+          <p>Cette demande ne constitue pas un paiement. Le vendeur confirme la commande et convient avec le client des modalités de règlement et de livraison. Le vendeur peut refuser une commande, notamment en cas d’indisponibilité d’un produit, d’impossibilité de livrer, ou si le client ne justifie pas de sa majorité.</p>
+        </section>
+
+        <section class="legal-card" id="paiement">
+          <h2>6. Paiement</h2>
+          <p>Le règlement n’est pas pris en charge sur le site. Les modalités de paiement sont convenues avec le vendeur. Modes de paiement acceptés&nbsp;: virement bancaire, ou espèces remises au moment de la livraison en voiture. Les envois par colis postal sont réglés par virement avant l’expédition.</p>
+        </section>
+
+        <section class="legal-card" id="livraison">
+          <h2>7. Livraison</h2>
+          <p>Deux modes de livraison sont proposés, au choix du client lors de la demande de commande&nbsp;:</p>
+          <ul>
+            <li><strong>Livraison en voiture</strong> dans Bayonne et alentours, de 8&nbsp;h à 23&nbsp;h, pour 20&nbsp;€ TTC par commande. L’horaire précis est convenu avec le client dans cette plage.</li>
+            <li><strong>Envoi par colis postal</strong> à l’adresse indiquée par le client, pour les personnes plus éloignées, pour 35&nbsp;€ TTC par commande. Le délai d’acheminement dépend du service postal et est précisé lors de la confirmation de la commande.</li>
+          </ul>
+          <p>Le client s’engage à indiquer des coordonnées et, le cas échéant, une adresse de livraison exactes et à être en mesure de justifier de sa majorité lors de la remise des produits.</p>
+        </section>
+
+        <section class="legal-card" id="retractation">
+          <h2>8. Droit de rétractation</h2>
+          <p>Conformément à l’article L221-18 du Code de la consommation, le client dispose d’un délai de quatorze jours pour exercer son droit de rétractation, sans avoir à motiver sa décision. Ce délai court à compter du jour de la réception des produits.</p>
+          <p>Pour exercer ce droit, le client informe le vendeur de sa décision, avant l’expiration du délai, par courriel à <a href="mailto:arakazatresor257@gmail.com">arakazatresor257@gmail.com</a> ou par courrier à l’adresse indiquée à l’article&nbsp;2. Il peut utiliser le modèle ci-dessous, sans y être obligé&nbsp;:</p>
+          <p class="form-hint">«&nbsp;Je vous notifie par la présente ma rétractation du contrat portant sur la vente du bien ci-dessous. Commande du [date] / reçu le [date]. Nom et adresse du client. Date et signature (en cas de notification sur papier).&nbsp;»</p>
+          <p>Les produits doivent être renvoyés à l’adresse du vendeur, Cité Ronsard, bâtiment B, logement 007, 34 rue Ronsard, 64000 Pau, sans retard excessif et au plus tard quatorze jours après la communication de la décision de rétractation. Sauf accord contraire, les frais de renvoi sont à la charge du client.</p>
+          <p>Le remboursement intervient dans les quatorze jours suivant la date à laquelle le vendeur est informé de la décision de rétractation, selon les modalités prévues par le Code de la consommation. Le vendeur peut différer le remboursement jusqu’à récupération des biens ou jusqu’à ce que le client ait fourni une preuve d’expédition.</p>
+          <p>Conformément à l’article L221-28 du Code de la consommation, le droit de rétractation ne peut être exercé pour les contrats de fourniture de biens qui ont été descellés par le consommateur après la livraison et qui ne peuvent être renvoyés pour des raisons d’hygiène ou de protection de la santé. Cette exclusion peut notamment s’appliquer aux produits (tels que les e-liquides) ouverts après la livraison.</p>
+        </section>
+
+        <section class="legal-card" id="garanties">
+          <h2>9. Garantie légale de conformité</h2>
+          <p>Le client bénéficie de la garantie légale de conformité prévue aux articles L217-3 et suivants du Code de la consommation, et de la garantie des vices cachés prévue aux articles 1641 et suivants du Code civil.</p>
+          <p>Le vendeur répond des défauts de conformité existant lors de la délivrance du bien. Cette garantie légale s’applique pendant deux ans à compter de la délivrance. Le client peut demander la mise en conformité du bien, selon les modalités prévues par le Code de la consommation.</p>
+          <p>Pour faire valoir une garantie, le client contacte le vendeur à l’adresse ou au courriel indiqués à l’article&nbsp;2.</p>
+        </section>
+
+        <section class="legal-card" id="mediation">
+          <h2>10. Médiation de la consommation</h2>
+          <p>Conformément aux articles L611-1 et suivants du Code de la consommation, en cas de litige, le client peut recourir gratuitement à un médiateur de la consommation, après avoir d’abord tenté de résoudre le différend auprès du vendeur par écrit.</p>
+          <p>Médiateur de la consommation compétent&nbsp;: <span class="placeholder">[médiateur]</span>.</p>
+        </section>
+
+        <section class="legal-card" id="donnees">
+          <h2>11. Protection des données personnelles</h2>
+          <p>Les informations relatives au traitement des données personnelles, aux droits du client et aux éventuels recours figurent dans les <a href="mentions-legales.html">mentions légales</a>.</p>
+        </section>
+
+        <section class="legal-card" id="droit">
+          <h2>12. Droit applicable</h2>
+          <p>Les présentes CGV sont soumises au droit français.</p>
+          <p>En cas de litige, le client peut saisir, outre les juridictions éventuellement compétentes en application du Code de procédure civile, la juridiction du lieu où il demeurait au moment de la conclusion du contrat ou de la survenance du fait dommageable, conformément aux règles protectrices du consommateur.</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-warning">La nicotine contenue dans ce produit crée une très forte dépendance. Son utilisation par les non-fumeurs est déconseillée. Vente interdite aux mineurs.</p>
+      <p class="footer-meta">
+        <span>Nuage vapeur — site d’exemple, sans paiement en ligne</span>
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="cgv.html">CGV</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/age-gate.js"></script>
+</body>
+</html>
